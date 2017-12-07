@@ -1,0 +1,47 @@
+{"vehicles": [
+    {
+        "name": "Motorbike",
+        "imageURL": "../images/motorbike.jpg",
+        "minNumOfPeople": 1,
+        "maxNumOfPeople": 1,
+        "minNumOfDays": 1,
+        "maxNumOfDays": 5,
+        "price": 109,
+        "fuel": 3.7,
+        "description": "A motorcycle is a vehicle used to transport people from one place to another. It does not have 4 wheels like a car. It has 2 wheels like a bicycle."
+    },
+    {
+        "name": "Small Car",
+        "imageURL": "../images/small-car.jpg",
+        "minNumOfPeople": 1,
+        "maxNumOfPeople": 2,
+        "minNumOfDays": 1,
+        "maxNumOfDays": 10,
+        "price": 129,
+        "fuel": 8.5,
+        "description": "A compact car, or small family car in British acceptation, is a classification of cars that are larger than a subcompact car but smaller than a mid-size car, roughly equivalent to the C-segment in Europe."
+    },
+    {
+        "name": "Large Car",
+        "imageURL": "../images/large-car.jpg",
+        "minNumOfPeople": 1,
+        "maxNumOfPeople": 5,
+        "minNumOfDays": 3,
+        "maxNumOfDays": 10,
+        "price": 144,
+        "fuel": 9.7,
+        "description": "Large family cars were usually around 4.50 m (177 in) in length by the early 1990s, but are now shifting to 4.80 m (189 in) or more in length."
+    },
+    {
+        "name": "Motor Home",
+        "imageURL": "../images/motor-home.jpg",
+        "minNumOfPeople": 2,
+        "maxNumOfPeople": 6,
+        "minNumOfDays": 2,
+        "maxNumOfDays": 15,
+        "price": 200,
+        "fuel": 17,
+        "description": "A motorhome (or motor coach[1]) is a type of self-propelled recreational vehicle or RV which offers living accommodation combined with a vehicle engine."
+    }
+]
+}

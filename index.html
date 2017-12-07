@@ -1,0 +1,57 @@
+<!DOCTYPE html>
+
+<head>
+    <meta charset="utf-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <title>TNZ Website</title>
+    <meta name="description" content="">
+    <meta name="viewport" content="width=device-width, initial-scale=1">
+    <link href="css/main.css" type="text/css" rel="stylesheet">
+    <link href="https://fonts.googleapis.com/css?family=Raleway" rel="stylesheet">
+</head>
+
+<body>
+    <div class="container">
+        <img class="logo" src="images/wwd-logo-white.png">
+        <h1 class="logo-header">Vehicle Rental Quotes</h1>
+        <form class="landing-form">
+            <h2>Get a quote, now.</h2>
+            <input id="party-input" class="main-input" type="text" name="party-number" placeholder="How many people are in your party?">
+            <input id="duration-input" class="main-input" type="text" name="travel-duration" placeholder="How many days will you be travelling?">
+            <button class="main-btn" type="button">SEARCH</button>
+        </form>
+        <div class="landing-info">
+            <img class="money-icon" src="images/money-icon.png">
+            <p class="landing-info">Make sure you're getting the most bang, for your buck.</p>
+        </div>
+        <div class="vehicle-list"></div>
+        <div class="back-btn--container">
+        <button class="back-btn"> < Back</button>
+        </div>
+        <div class="selected-vehicle--display"></div>
+        <div class="fuel-input">
+            <h2>How much travelling will you do?</h2>
+            <select class="distance-select" name="distance">
+                <option value="" disabled selected>Select distance</option>
+                <option value="25">0-25 km/day</option>
+                <option value="50">25-50 km/day</option>
+                <option value="75">50-75 km/day</option>
+                <option value="100">75-100 km/day</option>
+                <option value="150">100-150 km/day</option>
+                <option value="200">150-200 km/day</option>
+                <option value="250">200-250 km/day</option>
+                <option value="300">250-300 km/day</option>
+                <option value="200">300-400 km/day</option>
+                <option value="250">400-500 km/day</option>
+                <option value="300">500+ km/day</option>
+            </select>
+            <p class="fuel-text">OR</p>
+            <input class="distance-input" type="text" name="distance-travel" placeholder="Input distance (km/day)">
+            <button class="fuel-btn">CONFIRM</button>
+        </div>
+    </div>
+    <script src="https://ajax.googleapis.com/ajax/libs/jquery/2.1.3/jquery.min.js"></script>
+    <script src="js/main.js"></script>
+</body>
+
+</html>

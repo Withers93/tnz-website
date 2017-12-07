@@ -1,0 +1,275 @@
+* {
+    margin: 0px;
+}
+
+body {
+    background-image: url("../images/nz-background2.jpg");
+    background-attachment: fixed;
+    background-color: black;
+}
+
+h1 {
+    font-family: 'Raleway', sans-serif;
+    color: white;
+    text-transform: uppercase;
+    font-size: 40px;
+    font-weight: bold;
+}
+
+h2 {
+    font-family: 'Raleway:200', sans-serif;
+    color: white;
+    font-size: 30px;
+    font-weight: normal;
+}
+
+.container {
+    margin: auto;
+    text-align: center;
+    width: 60%;
+    background-color: rgba(255, 255, 255, 0.25);
+    border-right: 3px solid white;
+    border-left: 3px solid white;
+}
+
+.logo {
+    width: 15%;
+    padding-top: 25px;
+    margin-top: 50px;
+}
+
+.logo-header {
+    padding-top: 25px;
+}
+
+.landing-form {
+    text-align: center;
+    margin: auto;
+    margin-top: 50px;
+}
+
+.main-input {
+    width: 500px;
+    display: block;
+    margin: auto;
+    background-color: rgba(0, 0, 0, 0);
+    border: 3px solid white;
+    padding: 25px;
+    margin-top: 15px; 
+    color: white;
+    font-family: 'Raleway', sans-serif;
+    font-size: 20px;
+}
+
+.main-input::placeholder {
+    color: white;
+    font-family: 'Raleway', sans-serif;
+    font-size: 20px;
+}
+
+.main-btn {
+    margin-top: 25px;
+    width: 250px;
+    background-color: rgba(255, 255, 255, 0.15);
+    border: 3px solid white;
+    padding: 15px;
+    color: white;
+    font-family: 'Raleway', sans-serif;
+    font-size: 25px;
+    transition: 0.3s;
+    cursor: pointer;
+}
+
+.main-btn:hover {
+    background-color: white;
+    color: #666666;
+    transition: 0.3s;
+}
+
+.money-icon {
+    padding-top: 50px;
+    width: 100px;
+}
+
+.landing-info {
+    margin: auto;
+    width: 750px;
+    font-family: Hagin-Medium, serif;
+    color: white;
+    font-size: 50px;
+    padding: 25px 0px 19px 0px;
+}
+
+.vehicle-list {
+    width: 100%;
+    display: none;
+    font-family: 'Raleway', sans-serif;
+    color: white;
+    padding: 50px 0px 50px 0px;
+}
+
+.vehicle-list--item {
+    width: 250px;
+    display: inline-block;
+    text-align: left;
+    padding: 0px 10px 0px 10px;
+    vertical-align: top;
+}
+
+.vehicle-description {
+    height: 220px;
+}
+
+.vehicle-image {
+    width: 100%;
+    height: 160px;
+}
+
+.vehicle-name {
+    text-align: center;
+    padding-bottom: 15px;
+}
+
+.vehicle-info {
+    padding: 2px 0px 2px 0px;
+}
+
+.vehicle-button {
+    width: 100%;
+    font-family: 'Raleway', sans-serif;
+    font-size: 50px;
+    color: white;
+    background-color: rgba(0, 0, 0, 0);
+    border: 3px solid white;
+    transition: 0.3s;
+    cursor: pointer;
+}
+
+.vehicle-button:hover {
+    color: #666666;
+    background-color: #46F79E;
+    border: 3px solid #46F79E;
+    transition: 0.3s;
+}
+
+.back-btn {
+    display: none;
+    vertical-align: top;
+    color: white;
+    font-family: 'Raleway', sans-serif;
+    font-size: 20px;
+    background-color: rgba(0, 0, 0, 0);
+    border: 3px solid white;
+    margin-top: 25px;
+    padding: 5px 15px;
+    cursor: pointer;
+    transition: 0.3s;
+}
+
+.back-btn:hover {
+    background-color: rgba(255, 255, 255, 0.2);
+    transition: 0.3s;
+}
+
+.selected-vehicle--display {
+    width: 40%;
+    font-family: 'Raleway', sans-serif;
+    color: white;
+    padding: 50px 0px 50px 50px;
+    display: inline-block;
+    display: none;
+}
+
+.selected-vehicle--image {
+    width: 100%;
+}
+
+.selected-vehicle--name {
+    font-size: 35px;
+    padding-bottom: 15px;
+}
+
+.selected-vehicle--info {
+    margin: auto;
+    width: 80%;
+    text-align: left;
+    font-size: 20px;
+    padding: 4px 0px 4px 0px;
+}
+
+.fuel-input {
+    font-family: 'Raleway', sans-serif;
+    color: white;
+    font-size: 30px;
+    width: 50%;
+    display: none;
+    vertical-align: top;
+    padding: 50px 0px 0px 0px;
+}
+
+.distance-select {
+    width: 360px;
+    font-family: 'Raleway', sans-serif;
+    color: white;
+    font-size: 25px;
+    background-color: rgba(0, 0, 0, 0);
+    border: 3px solid white;
+    margin-top: 50px;
+    padding: 10px; 
+}
+
+option {
+    background-color: #666666;
+}
+
+.fuel-text {
+    padding: 25px 0px 10px 0px;
+}
+
+.distance-input {
+    width: 334px;
+    display: block;
+    margin: auto;
+    background-color: rgba(0, 0, 0, 0);
+    border: 3px solid white;
+    padding: 15px 10px;
+    margin-top: 15px; 
+    color: white;
+    font-family: 'Raleway', sans-serif;
+    font-size: 20px;
+}
+
+.distance-input::placeholder {
+    color: white;
+    font-family: 'Raleway', sans-serif;
+    font-size: 20px;
+}
+
+.fuel-btn {
+    margin-top: 50px;
+    width: 250px;
+    background-color: rgba(255, 255, 255, 0.15);
+    border: 3px solid white;
+    padding: 15px;
+    color: white;
+    font-family: 'Raleway', sans-serif;
+    font-size: 25px;
+    transition: 0.3s;
+    cursor: pointer;
+}
+
+.fuel-btn:hover {
+    background-color: white;
+    color: #666666;
+    transition: 0.3s;
+}
+
+@font-face {
+font-family: Hagin-Thin;
+src: url("../fonts/HaginCapsThin.otf");
+}
+
+@font-face {
+font-family: Hagin-Medium;
+src: url("../fonts/HaginCapsMedium.otf");
+}
